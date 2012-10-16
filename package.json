@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "A javascript api for interacting with recipes from Key Ingredient",
   "dependencies": {
-    "grunt": "0.3.x"
+    "grunt": "0.3.x",
+    "backbone": "0.9.x"
   },
   "engine": "node 0.8.x"
 }

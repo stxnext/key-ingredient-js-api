@@ -7,8 +7,10 @@ module.exports = function(grunt) {
     },
 
     min: {
-      src: 'src/*.js',
-      dest: 'dist/ki-api.min.js'
+      api: {
+        src: 'src/*.js',
+        dest: 'dist/ki-api.min.js'
+      }
     }
 
   });
