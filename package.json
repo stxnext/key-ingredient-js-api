@@ -1,10 +1,42 @@
 {
   "name": "key-ingredient-js-api",
-  "version": "0.0.1",
-  "description": "A javascript api for interacting with recipes from Key Ingredient",
-  "dependencies": {
-    "grunt": "0.3.x",
-    "backbone": "0.9.x"
+  "description": "A javascript api for interacting with recipes from Key Ingredient.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/KeyIngredient/key-ingredient-js-api",
+  "author": {
+    "name": "eshlox",
+    "email": "przemyslaw.kolodziejczyk@stxnext.pl",
+    "url": "http://keyingredient.com"
   },
-  "engine": "node 0.8.x"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/KeyIngredient/key-ingredient-js-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KeyIngredient/key-ingredient-js-api/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/KeyIngredient/key-ingredient-js-api/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/key-ingredient-js-api",
+  "engines": {
+    "node": ">= 0.8.x"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+      "grunt": "0.3.x",
+      "backbone": "0.9.x",
+      "requirejs": "2.1.x",
+      "lodash": "0.8.x",
+      "jquery": "1.7.x"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.17"
+  },
+  "keywords": []
 }

@@ -1,18 +1,16 @@
-
-
 define(['require', 'backbone'], function(require, Backbone) {
   var KI = {};
 
   KI.Recipe = Backbone.Model.extend({
 
-    urlRoot: require.toUrl('/r/api/v1/recipes/')
+    urlRoot: require.toUrl('https://keyingredient.com/r/api/v1/recipes/')
 
   });
 
   KI.RecipeCollection = Backbone.Collection.extend({
 
     model: KI.Recipe,
-    url: require.toUrl('/r/api/v1/recipes/'),
+    url: require.toUrl('https://keyingredient.com/r/api/v1/recipes/'),
 
     initialize: function(models, options) {
       options = options || {};
